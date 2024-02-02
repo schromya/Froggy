@@ -4,7 +4,7 @@ use rusty_frog::Frog;
 
 fn main() {
 
-    let some_frog: Frog = Frog::new(); // Frog::new() returns an instance of the Frog struct
+    let some_frog: Frog = Frog::new();
 
     let mut input: String = String::new();
     let mut my_name: String = String::new();
@@ -23,8 +23,7 @@ fn main() {
         .expect("Couldn't read input");
     my_weight = input.trim().parse().unwrap();
 
-    // You can define 'multiple constructors'! Kinda
-    let mut my_frog: Frog = Frog::new_with_name_and_weight(my_name, my_weight); // Returns instance but is kind of like constructor overloading
+    let mut my_frog: Frog = Frog::new_with_name_and_weight(my_name, my_weight);
     while my_frog.is_chilling() {
         my_frog.frog_life();
     }

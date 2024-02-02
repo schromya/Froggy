@@ -10,7 +10,7 @@ pub struct Frog {
 }
 
 impl Frog {
-    pub fn new() -> Frog { // Like a constructor, returns an instance of the Frog struct
+    pub fn new() -> Frog {
         Frog{
             _name: "Rusty Frog".to_string(),
             _weight: 1.0,
@@ -20,7 +20,7 @@ impl Frog {
         }
     }
 
-    pub fn new_with_name(name: String) -> Frog { // Returns a different instance (with name param)
+    pub fn new_with_name(name: String) -> Frog {
         Frog {
              _name: name,
              _weight: 1.0,
@@ -30,7 +30,7 @@ impl Frog {
         }
     }
 
-    pub fn new_with_name_and_weight(name: String, weight: f64) -> Frog { // Returns another instance
+    pub fn new_with_name_and_weight(name: String, weight: f64) -> Frog {
         Frog {
             _name: name,
             _weight: weight,
@@ -40,7 +40,7 @@ impl Frog {
         }
     }
 
-    pub fn is_chilling(&self) -> bool { // Public method (accessor of _is_chilling)
+    pub fn is_chilling(&self) -> bool {
         self._is_chilling
     }    
 
