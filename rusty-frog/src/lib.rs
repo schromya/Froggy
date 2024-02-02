@@ -1,4 +1,4 @@
-use std::{io::{self, stdin}, thread, time::Duration};
+use std::{io::{self}, thread, time::Duration};
 use rand::Rng;
 
 pub struct Frog {
