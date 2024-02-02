@@ -7,7 +7,7 @@ fn main() {
     let some_frog: Frog = Frog::new();
 
     let mut input: String = String::new();
-    let mut my_name: String = String::new();
+    let my_name: String;
     print!("Enter your frog's name: ");
     io::Write::flush(&mut io::stdout()).expect("Failed to flush buffer");
     io::stdin()
