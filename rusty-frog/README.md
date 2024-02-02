@@ -4,7 +4,7 @@ Froggy in rust!
 
 ## Usage
 
-The program should already be built, but to build it, run `cargo build` in this directory.
+The program should already be built (on Windows), but to build it, run `cargo build` in this directory.
 Then run `cargo run` to execute the file.
 
 ## Dependencies
