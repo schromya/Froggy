@@ -1,10 +1,9 @@
 use std::io;
-
 use rusty_frog::Frog;
 
 fn main() {
 
-    let some_frog: Frog = Frog::new();
+    let _some_frog: Frog = Frog::new();
 
     let mut input: String = String::new();
     let my_name: String;
